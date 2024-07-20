@@ -1,0 +1,5 @@
+[http]
+proxy = "socks5h://localhost:8080"
+timeout = 30        
+check-revoke = false 
+multiplexing = false
