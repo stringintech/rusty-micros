@@ -1,5 +1,6 @@
 use aws_sdk_s3::types::{BucketLocationConstraint, CreateBucketConfiguration};
 use std::error::Error;
+pub mod storage;
 
 pub const REGION: BucketLocationConstraint = BucketLocationConstraint::UsWest2;
 

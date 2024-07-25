@@ -6,6 +6,7 @@ use aws_credential_types::Credentials;
 use std::error::Error;
 use rusty_micros::*;
 use testcontainers::{core::{IntoContainerPort, WaitFor}, runners::AsyncRunner, GenericImage};
+pub mod storage;
 
 #[tokio::test]
 async fn test_s3_integration() -> Result<(), Box<dyn Error>> {

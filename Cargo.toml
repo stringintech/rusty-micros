@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+async-trait = "0.1.81"
 aws-config = "1.5.4"
 aws-credential-types = "1.2.0"
 aws-sdk-s3 = "1.41.0"
